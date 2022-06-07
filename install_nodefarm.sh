@@ -23,7 +23,7 @@ chmod +x subspace*
 mv subspace* /usr/local/bin/
 
 systemctl stop subspaced subspaced-farmer &>/dev/null
-rm -rf ~/.local/share/subspace*
+
 
 source ~/.bash_profile
 sleep 1
