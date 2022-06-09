@@ -23,7 +23,7 @@ wget -O subspace-farmer https://github.com/subspace/subspace/releases/download/g
 sudo chmod +x subspace*
 sudo mv subspace* /usr/local/bin/
 
-sudo systemctl stop subspaced subspaced-farmer &>/dev/null
+
 rm -rf ~/.local/share/subspace*
 
 source ~/.bash_profile
